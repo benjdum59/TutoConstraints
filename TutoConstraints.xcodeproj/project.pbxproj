@@ -13,6 +13,8 @@
 		094512F4209C498F00CC7D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094512F3209C498F00CC7D62 /* Assets.xcassets */; };
 		094512F7209C498F00CC7D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094512F5209C498F00CC7D62 /* LaunchScreen.storyboard */; };
 		094512FA209C498F00CC7D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094512F9209C498F00CC7D62 /* main.m */; };
+		09C3096020A2CF930092C5FC /* DynamicConstraintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3095F20A2CF930092C5FC /* DynamicConstraintsViewController.m */; };
+		09C3096320A2E49D0092C5FC /* ProgrammaticConstraintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3096220A2E49D0092C5FC /* ProgrammaticConstraintsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		094512F6209C498F00CC7D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		094512F8209C498F00CC7D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094512F9209C498F00CC7D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C3095E20A2CF930092C5FC /* DynamicConstraintsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicConstraintsViewController.h; sourceTree = "<group>"; };
+		09C3095F20A2CF930092C5FC /* DynamicConstraintsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicConstraintsViewController.m; sourceTree = "<group>"; };
+		09C3096120A2E49D0092C5FC /* ProgrammaticConstraintsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgrammaticConstraintsViewController.h; sourceTree = "<group>"; };
+		09C3096220A2E49D0092C5FC /* ProgrammaticConstraintsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgrammaticConstraintsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				094512F5209C498F00CC7D62 /* LaunchScreen.storyboard */,
 				094512F8209C498F00CC7D62 /* Info.plist */,
 				094512F9209C498F00CC7D62 /* main.m */,
+				09C3095E20A2CF930092C5FC /* DynamicConstraintsViewController.h */,
+				09C3095F20A2CF930092C5FC /* DynamicConstraintsViewController.m */,
+				09C3096120A2E49D0092C5FC /* ProgrammaticConstraintsViewController.h */,
+				09C3096220A2E49D0092C5FC /* ProgrammaticConstraintsViewController.m */,
 			);
 			path = TutoConstraints;
 			sourceTree = "<group>";
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				094512EF209C498E00CC7D62 /* ViewController.m in Sources */,
+				09C3096320A2E49D0092C5FC /* ProgrammaticConstraintsViewController.m in Sources */,
+				09C3096020A2CF930092C5FC /* DynamicConstraintsViewController.m in Sources */,
 				094512FA209C498F00CC7D62 /* main.m in Sources */,
 				094512EC209C498E00CC7D62 /* AppDelegate.m in Sources */,
 			);
